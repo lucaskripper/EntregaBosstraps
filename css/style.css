@@ -45,6 +45,8 @@ nav
     position: fixed;
     z-index: 1001;
     background-image: linear-gradient(to left, #12cdd4, #B0F6F8);
+    border-radius: 10px;
+    
 }
 
 nav ul
@@ -69,7 +71,7 @@ main ul
     height: 100%;
     z-index: 100;
 }
-nav ul li
+nav ul li .animacion
 {
     display: inline-block;
     list-style: none;
@@ -83,7 +85,7 @@ nav ul li a
     text-transform: uppercase;
     padding-left: 15px;
 }
-nav ul li:hover
+nav ul li .animacion:hover
 {
     width: 50px;
     padding: 50px ;
@@ -137,10 +139,63 @@ ul
 {
     background-color: #e6e6e6;
 }
-.imagenesTamaño
+.fildsetborder
 {
-    width: auto;
-    max-height: 100%;
+    border: solid;
+    border-color: #e6e6e6;
+    padding: 20px;
+}
+.fondoDiv
+{
+    background-color: #e6e6e6;
+}
+.contenedor
+{
+    width: 75%;
+    max-width: 1200px;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
+}
+.contenedor .tarjeta
+{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenedor .tarjeta:hover
+{
+    transform: translateY(-15px);
+}
+.contenedor .tarjeta img
+{
+    width: 330 px;
+    height: 220 px;
+}
+.contenedor .tarjeta h5
+{
+    font-weight: 600;
+}
+.contenedor .tarjeta p
+{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.contenedor .tarjeta button
+{
+    border-width: 0;
+    border-radius: 5px;
+    font-weight: 600;
+   
 }
 #navMma
 {
@@ -178,25 +233,64 @@ ul
 {
     background-image: linear-gradient(to bottom, #12cdd4, #B0F6F8);
 }
-#fondoBoxeo
+#boxeo .contenedor .tarjeta
+{
+    box-shadow: 0 2px 2px rgba(255,177,27,0.5);
+}
+#boxeo .contenedor .tarjeta:hover
+{
+    box-shadow: 0 2px 2px rgba(255,177,27,1);
+}
+#boxeo .contenedor .tarjeta button
 {
     background-image: linear-gradient(to bottom, #FFB11B, #DDE8FF);
 }
-#fondoMMA
+#mma .contenedor .tarjeta
 {
-    background-image: linear-gradient(to left, #9486F1, #DFFFFF);
+    box-shadow: 0 2px 2px rgba(148,134,241,0.5);
 }
-#fondoRunning
+#mma .contenedor .tarjeta:hover
+{
+    box-shadow: 0 2px 2px rgba(148,134,241,1);
+}
+#mma .contenedor .tarjeta button
+{
+    background-image: linear-gradient(to bottom, #9486F1, #DFFFFF);
+}
+#running .contenedor .tarjeta
+{
+    box-shadow: 0 2px 2px rgba(248,117,165,0.5);
+}
+#running .contenedor .tarjeta:hover 
+{
+    box-shadow: 0 2px 2px rgba(248,117,165,1);
+}
+#running .contenedor .tarjeta button
 {
     background-image: linear-gradient(to bottom, #F875A5, #FFFAFF);
 }
-#fondoCrossfit
+#inicio .contenedor .tarjeta
 {
-    background-image: linear-gradient(to left, #27FF70, #FFE9F7);
+    box-shadow: 0 2px 2px rgba(18,205,212,0.5);
 }
-#fildsetborder
+#inicio .contenedor .tarjeta:hover
 {
-    border: solid;
-    border-color: #e6e6e6;
+    box-shadow: 0 2px 2px rgba(18,205,212,1);
+}
+#inicio .contenedor .tarjeta button
+{
+    background-image: linear-gradient(to bottom, #12cdd4, #B0F6F8);
+}
+#crossFit .contenedor .tarjeta
+{
+    box-shadow: 0 2px 2px rgba(39,255,112,0.5);
+}
+#crossFit .contenedor .tarjeta:hover
+{
+    box-shadow: 0 2px 2px rgba(39,255,112,1);
+}
+#crossFit .contenedor .tarjeta button
+{
+    background-image: linear-gradient(to bottom, #27FF70, #FFE9F7);
 }
 
