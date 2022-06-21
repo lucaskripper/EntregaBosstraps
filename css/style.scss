@@ -1,0 +1,315 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+ul
+{
+    list-style: none;
+}
+header
+{
+    width: 100%;
+    height: 120px;
+}
+.logo
+{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px 30px;
+    font-size: 30px;
+    a
+    {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+nav
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    position: fixed;
+    z-index: 1001;
+    background-image: linear-gradient(to left, #12cdd4, #B0F6F8);
+    border-radius: 10px;
+    ul 
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0 30px 0 0;
+        padding-left: 0;
+        height: 100%;
+        z-index: 100;
+        li
+        {
+            a
+            {
+                color: black;
+                text-decoration: none;
+                font-size: 14px;
+                text-transform: uppercase;
+                padding-left: 15px;
+            }
+            .animacion
+            {
+                display: inline-block;
+                list-style: none;
+                transition: all;
+            }
+            .animacion:hover
+            {
+                transform: translateY(-5px);
+                color: black;
+            }
+        }
+    }
+}
+main
+{
+    ul
+    {
+        display: flex;
+        justify-content: center;
+        position: center;
+        list-style: none;
+        margin: 0 30px 0 0;
+        padding-left: 0;
+        height: 100%;
+        z-index: 100;
+    }
+}
+
+footer
+{
+    background-image: linear-gradient(to left, #12cdd4, #B0F6F8);
+}
+.redes
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.restofooter
+{
+    display: flex; 
+    justify-content: center; 
+    text-align: center;
+}
+.margenes
+{
+    margin: 30px;
+    padding: 30px;
+    background-color: white;
+}
+.relleno
+{
+    background-color: #e6e6e6;
+}
+.fildsetborder
+{
+    border: solid;
+    border-color: #e6e6e6;
+    padding: 20px;
+}
+.fondoDiv
+{
+    background-color: #e6e6e6;
+}
+.contenedor
+{
+    width: 75%;
+    max-width: 1200px;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    .tarjeta
+    {
+        width: 330px;
+        height: 430px;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+        img
+        {
+            width: 330 px;
+            height: 220 px;
+        }
+        h5
+        {
+            font-weight: 600;
+        }
+        h6
+        {
+            font-weight: 600;
+        }
+        p
+        {
+            padding: 0 1rem;
+            font-size: 16px;
+            font-weight: 300;
+        }
+        button
+        {
+            border-width: 0;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: all;
+        }
+        button:hover
+        {
+            transform: translateY(-5px);
+            box-shadow: 0 2px 2px rgba( 31, 38, 135, 0.37);
+        }
+    }
+    .tarjeta:hover
+    {
+        transform: translateY(-15px);
+    }
+}
+#navMma
+{
+    background-image: linear-gradient(to left, #9486F1, #DFFFFF);
+}
+#footMma
+{
+    background-image: linear-gradient(to left, #9486F1, #DFFFFF);
+}
+#navCrossFit 
+{
+    background-image: linear-gradient(to left, #27FF70, #FFE9F7);
+}
+#footCrossFit
+{
+    background-image: linear-gradient(to left, #27FF70, #FFE9F7);
+}
+#navRunning 
+{
+    background-image: linear-gradient(to left, #F875A5, #FFFAFF);
+}
+#footRunning
+{
+    background-image: linear-gradient(to left, #F875A5, #FFFAFF);
+}
+#navBoxeo
+{
+    background-image: linear-gradient(to left, #FFB11B, #DDE8FF);
+}
+#footBoxeo
+{
+    background-image: linear-gradient(to left, #FFB11B, #DDE8FF);
+}
+#fondo
+{
+    background-image: linear-gradient(to bottom, #12cdd4, #B0F6F8);
+}
+#boxeo 
+{
+    .contenedor
+    { 
+        .tarjeta
+        {
+            box-shadow: 0 2px 2px rgba(255,177,27,0.5);
+            button
+            {
+                background-image: linear-gradient(to bottom, #FFB11B, #DDE8FF);
+            }
+        }
+        .tarjeta:hover
+        {
+            box-shadow: 0 2px 2px rgba(255,177,27,1);
+        }
+    }
+}       
+#mma
+{ 
+    .contenedor
+    {
+        .tarjeta
+        {
+            box-shadow: 0 2px 2px rgba(148,134,241,0.5);
+            button
+            {
+                background-image: linear-gradient(to bottom, #9486F1, #DFFFFF);
+            }
+        }
+        .tarjeta:hover
+        {
+            box-shadow: 0 2px 2px rgba(148,134,241,1);
+        }
+    }
+}
+#running
+{
+    .contenedor
+    {
+        .tarjeta
+        {
+            box-shadow: 0 2px 2px rgba(248,117,165,0.5);
+            button
+            {
+                background-image: linear-gradient(to bottom, #F875A5, #FFFAFF);
+            }
+        }
+        .tarjeta:hover
+        {
+            box-shadow: 0 2px 2px rgba(248,117,165,1);
+        }
+    }
+}
+#inicio
+{
+    .contenedor
+    {
+        .tarjeta
+        {
+            box-shadow: 0 2px 2px rgba(18,205,212,0.5);
+            button
+            {
+                background-image: linear-gradient(to bottom, #12cdd4, #B0F6F8);
+            }
+        }
+        .tarjeta:hover
+        {
+            box-shadow: 0 2px 2px rgba(18,205,212,1);
+        }
+    }
+}
+#crossFit
+{
+    .contenedor
+    {
+        .tarjeta
+        {
+            box-shadow: 0 2px 2px rgba(39,255,112,0.5);
+            button
+            {
+                background-image: linear-gradient(to bottom, #27FF70, #FFE9F7);
+            }
+        }
+        .tarjeta:hover
+        {
+            box-shadow: 0 2px 2px rgba(39,255,112,1);
+        }
+    }
+}
+
