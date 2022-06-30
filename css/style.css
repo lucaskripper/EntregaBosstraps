@@ -42,7 +42,7 @@ nav {
   position: fixed;
   z-index: 1001;
   background-image: linear-gradient(to left, #12cdd4, #B0F6F8);
-  border-radius: 10px;
+  border-radius: 15px;
 }
 nav ul {
   display: flex;
@@ -82,6 +82,53 @@ main ul {
   z-index: 100;
 }
 
+.contenedor {
+  width: 75%;
+  max-width: 1200px;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.contenedor .tarjeta {
+  width: 330px;
+  height: 430px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+.contenedor .tarjeta img {
+  width: 330 px;
+  height: 220 px;
+}
+.contenedor .tarjeta h5 {
+  font-weight: 600;
+}
+.contenedor .tarjeta h6 {
+  font-weight: 600;
+}
+.contenedor .tarjeta p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+.contenedor .tarjeta button {
+  border-width: 0;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all;
+}
+.contenedor .tarjeta button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 2px rgba(31, 38, 135, 0.37);
+}
+.contenedor .tarjeta:hover {
+  transform: translateY(-15px);
+}
+
 footer {
   background-image: linear-gradient(to left, #12cdd4, #B0F6F8);
 }
@@ -116,54 +163,8 @@ footer {
 }
 
 .fondoDiv {
+  border-radius: 20px;
   background-color: #e6e6e6;
-}
-
-.contenedor {
-  width: 75%;
-  max-width: 1200px;
-  height: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
-}
-.contenedor .tarjeta {
-  width: 330px;
-  height: 430px;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 20px;
-  text-align: center;
-  transition: all 0.25s;
-}
-.contenedor .tarjeta img {
-  width: 330 px;
-  height: 220 px;
-}
-.contenedor .tarjeta h5 {
-  font-weight: 600;
-}
-.contenedor .tarjeta h6 {
-  font-weight: 600;
-}
-.contenedor .tarjeta p {
-  padding: 0 1rem;
-  font-size: 16px;
-  font-weight: 300;
-}
-.contenedor .tarjeta button {
-  border-width: 0;
-  border-radius: 5px;
-  font-weight: 600;
-  transition: all;
-}
-.contenedor .tarjeta button:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 2px 2px rgba(31, 38, 135, 0.37);
-}
-.contenedor .tarjeta:hover {
-  transform: translateY(-15px);
 }
 
 #navMma {
@@ -199,14 +200,14 @@ footer {
 }
 
 #fondo {
-  background-image: linear-gradient(to bottom, #12cdd4, #B0F6F8);
+  background-image: linear-gradient(to left, #12cdd4, #B0F6F8);
 }
 
 #boxeo .contenedor .tarjeta {
   box-shadow: 0 2px 2px rgba(255, 177, 27, 0.5);
 }
 #boxeo .contenedor .tarjeta button {
-  background-image: linear-gradient(to bottom, #FFB11B, #DDE8FF);
+  background-image: linear-gradient(to left, #FFB11B, #DDE8FF);
 }
 #boxeo .contenedor .tarjeta:hover {
   box-shadow: 0 2px 2px rgb(255, 177, 27);
@@ -216,7 +217,7 @@ footer {
   box-shadow: 0 2px 2px rgba(148, 134, 241, 0.5);
 }
 #mma .contenedor .tarjeta button {
-  background-image: linear-gradient(to bottom, #9486F1, #DFFFFF);
+  background-image: linear-gradient(to left, #9486F1, #DFFFFF);
 }
 #mma .contenedor .tarjeta:hover {
   box-shadow: 0 2px 2px rgb(148, 134, 241);
@@ -226,7 +227,7 @@ footer {
   box-shadow: 0 2px 2px rgba(248, 117, 165, 0.5);
 }
 #running .contenedor .tarjeta button {
-  background-image: linear-gradient(to bottom, #F875A5, #FFFAFF);
+  background-image: linear-gradient(to left, #F875A5, #FFFAFF);
 }
 #running .contenedor .tarjeta:hover {
   box-shadow: 0 2px 2px rgb(248, 117, 165);
@@ -236,7 +237,7 @@ footer {
   box-shadow: 0 2px 2px rgba(18, 205, 212, 0.5);
 }
 #inicio .contenedor .tarjeta button {
-  background-image: linear-gradient(to bottom, #12cdd4, #B0F6F8);
+  background-image: linear-gradient(to left, #12cdd4, #B0F6F8);
 }
 #inicio .contenedor .tarjeta:hover {
   box-shadow: 0 2px 2px rgb(18, 205, 212);
@@ -246,7 +247,7 @@ footer {
   box-shadow: 0 2px 2px rgba(39, 255, 112, 0.5);
 }
 #crossFit .contenedor .tarjeta button {
-  background-image: linear-gradient(to bottom, #27FF70, #FFE9F7);
+  background-image: linear-gradient(to left, #27FF70, #FFE9F7);
 }
 #crossFit .contenedor .tarjeta:hover {
   box-shadow: 0 2px 2px rgb(39, 255, 112);
