@@ -19,6 +19,7 @@ header
     height: 120px;
 }
 @import "_variables.scss";
+@import "_mixins.scss";
 .logo
 {
     text-decoration: none;
@@ -29,8 +30,7 @@ header
     font-size: 30px;
     a
     {
-        color: black;
-        text-decoration: none;
+        @extend a;
         font-size: 20px;
     }
 }
@@ -44,24 +44,17 @@ nav
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     position: fixed;
     z-index: 1001;
-    background-image: $colorIndex;
+    background-image: map-get($coloresSecciones, colorIndex );
     border-radius: 15px;
     ul 
     {
-        display: flex;
-        justify-content: center;
+        @include lista;
         flex-wrap: wrap;
-        list-style: none;
-        margin: 0 30px 0 0;
-        padding-left: 0;
-        height: 100%;
-        z-index: 100;
         li
         {
             a
             {
-                color: black;
-                text-decoration: none;
+                @extend a;
                 font-size: 14px;
                 text-transform: uppercase;
                 padding-left: 15px;
@@ -84,20 +77,14 @@ main
 {
     ul
     {
-        display: flex;
-        justify-content: center;
+        @include lista;
         position: center;
-        list-style: none;
-        margin: 0 30px 0 0;
-        padding-left: 0;
-        height: 100%;
-        z-index: 100;
     }
 }
 @import "_tarjetas.scss";
 footer
 {
-    background-image: $colorIndex; 
+    background-image: map-get($coloresSecciones ,colorIndex ); 
 }
 .redes
 {
@@ -125,8 +112,10 @@ footer
 .fildsetborder
 {
     border: solid;
+    border-radius: 20px;
     border-color: #e6e6e6;
     padding: 20px;
+    box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.37 );
 }
 .fondoDiv
 {
@@ -135,39 +124,39 @@ footer
 }
 #navMma
 {
-    background-image: $colorMMA;
+    background-image: map-get($coloresSecciones, colorMMA);
 }
 #footMma
 {
-    background-image: $colorMMA;
+    background-image: map-get($coloresSecciones, colorMMA);
 }
 #navCrossFit 
 {
-    background-image: $colorCrossFit;
+    background-image: map-get($coloresSecciones,colorCrossFit);
 }
 #footCrossFit
 {
-    background-image: $colorCrossFit;
+    background-image: map-get($coloresSecciones,colorCrossFit);
 }
 #navRunning 
 {
-    background-image: $colorRunning;
+    background-image: map-get($coloresSecciones,colorRunning);
 }
 #footRunning
 {
-    background-image: $colorRunning;
+    background-image: map-get($coloresSecciones,colorRunning);
 }
 #navBoxeo
 {
-    background-image: $colorBoxeo;
+    background-image: map-get($coloresSecciones,colorBoxeo);
 }
 #footBoxeo
 {
-    background-image: $colorBoxeo;
+    background-image: map-get($coloresSecciones,colorBoxeo);
 }
 #fondo
 {
-    background-image: $colorIndex;
+    background-image: map-get($coloresSecciones,colorIndex);
 }
 #boxeo 
 {
@@ -178,7 +167,7 @@ footer
             box-shadow: 0 2px 2px rgba(255,177,27,0.5);
             button
             {
-                background-image: $colorBoxeo;
+                background-image: map-get($coloresSecciones,colorBoxeo);
             }
             &:hover
             {
@@ -196,7 +185,7 @@ footer
             box-shadow: 0 2px 2px rgba(148,134,241,0.5);
             button
             {
-                background-image: $colorMMA;
+                background-image: map-get($coloresSecciones, colorMMA);
             }
             &:hover
             {
@@ -214,7 +203,7 @@ footer
             box-shadow: 0 2px 2px rgba(248,117,165,0.5);
             button
             {
-                background-image: $colorRunning;
+                background-image: map-get($coloresSecciones,colorRunning);
             }
             &:hover
             {
@@ -232,7 +221,7 @@ footer
             box-shadow: 0 2px 2px rgba(18,205,212,0.5);
             button
             {
-                background-image: $colorIndex;
+                background-image: map-get($coloresSecciones,colorIndex);
             }
             &:hover
             {
@@ -250,7 +239,7 @@ footer
             box-shadow: 0 2px 2px rgba(39,255,112,0.5);
             button
             {
-                background-image: $colorCrossFit;
+                background-image: map-get($coloresSecciones,colorCrossFit);
             }
             &:hover
             {

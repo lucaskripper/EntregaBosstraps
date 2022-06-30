@@ -4,7 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
+a, nav ul li a, .logo a {
   text-decoration: none;
   color: black;
 }
@@ -27,8 +27,6 @@ header {
   font-size: 30px;
 }
 .logo a {
-  color: black;
-  text-decoration: none;
   font-size: 20px;
 }
 
@@ -47,16 +45,14 @@ nav {
 nav ul {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   list-style: none;
   margin: 0 30px 0 0;
   padding-left: 0;
   height: 100%;
   z-index: 100;
+  flex-wrap: wrap;
 }
-nav ul li a {
-  color: black;
-  text-decoration: none;
+nav ul li a, nav ul li .logo a, .logo nav ul li a {
   font-size: 14px;
   text-transform: uppercase;
   padding-left: 15px;
@@ -74,12 +70,12 @@ nav ul li .animacion:hover {
 main ul {
   display: flex;
   justify-content: center;
-  position: center;
   list-style: none;
   margin: 0 30px 0 0;
   padding-left: 0;
   height: 100%;
   z-index: 100;
+  position: center;
 }
 
 .contenedor {
@@ -116,6 +112,7 @@ main ul {
   font-weight: 300;
 }
 .contenedor .tarjeta button {
+  padding: 10px;
   border-width: 0;
   border-radius: 5px;
   font-weight: 600;
@@ -158,8 +155,10 @@ footer {
 
 .fildsetborder {
   border: solid;
+  border-radius: 20px;
   border-color: #e6e6e6;
   padding: 20px;
+  box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.37);
 }
 
 .fondoDiv {
