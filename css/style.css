@@ -165,6 +165,12 @@ footer {
   border-radius: 20px;
   background-color: #e6e6e6;
 }
+.fondoDiv h2 {
+  margin: 10px;
+}
+.fondoDiv p {
+  margin: 10px;
+}
 
 #navMma {
   background-image: linear-gradient(to left, #9486F1, #DFFFFF);
