@@ -4,7 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a, nav ul li a, .logo a {
+a, .restofooter a, .logo .restofooter a, .restofooter .logo a, nav ul li .restofooter a, .restofooter nav ul li a, nav ul li .logo .restofooter a, .restofooter nav ul li .logo a, .logo nav ul li .restofooter a, .restofooter .logo nav ul li a, .logo nav ul li .logo .restofooter a, .restofooter .logo nav ul li .logo a, .redes .restofooter a, .restofooter .redes a, .logo .redes .restofooter a, .restofooter .logo .redes a, .redes .logo .restofooter a, .restofooter .redes .logo a, nav ul li .redes .restofooter a, .restofooter nav ul li .redes a, .redes nav ul li .restofooter a, .restofooter .redes nav ul li a, nav ul li .logo .redes .restofooter a, .restofooter nav ul li .logo .redes a, .redes nav ul li .logo .restofooter a, .restofooter .redes nav ul li .logo a, .logo nav ul li .redes .restofooter a, .restofooter .logo nav ul li .redes a, .redes .logo nav ul li .restofooter a, .restofooter .redes .logo nav ul li a, .logo nav ul li .logo .redes .restofooter a, .restofooter .logo nav ul li .logo .redes a, .redes .logo nav ul li .logo .restofooter a, .restofooter .redes .logo nav ul li .logo a, .redes a, .redes .restofooter a, .restofooter .redes a, .redes .logo .restofooter a, .logo .restofooter .redes a, .redes .restofooter .logo a, .restofooter .logo .redes a, .redes nav ul li .restofooter a, nav ul li .restofooter .redes a, .redes .restofooter nav ul li a, .restofooter nav ul li .redes a, .redes nav ul li .logo .restofooter a, nav ul li .logo .restofooter .redes a, .redes .restofooter nav ul li .logo a, .restofooter nav ul li .logo .redes a, .redes .logo nav ul li .restofooter a, .logo nav ul li .restofooter .redes a, .redes .restofooter .logo nav ul li a, .restofooter .logo nav ul li .redes a, .redes .logo nav ul li .logo .restofooter a, .logo nav ul li .logo .restofooter .redes a, .redes .restofooter .logo nav ul li .logo a, .restofooter .logo nav ul li .logo .redes a, .redes .restofooter a, .restofooter .redes a, .logo .redes .restofooter a, .restofooter .logo .redes a, .redes .logo .restofooter a, .restofooter .redes .logo a, nav ul li .redes .restofooter a, .restofooter nav ul li .redes a, .redes nav ul li .restofooter a, .restofooter .redes nav ul li a, nav ul li .logo .redes .restofooter a, .restofooter nav ul li .logo .redes a, .redes nav ul li .logo .restofooter a, .restofooter .redes nav ul li .logo a, .logo nav ul li .redes .restofooter a, .restofooter .logo nav ul li .redes a, .redes .logo nav ul li .restofooter a, .restofooter .redes .logo nav ul li a, .logo nav ul li .logo .redes .restofooter a, .restofooter .logo nav ul li .logo .redes a, .redes .logo nav ul li .logo .restofooter a, .restofooter .redes .logo nav ul li .logo a, nav ul li a, nav ul li .restofooter a, .restofooter nav ul li a, nav ul li .logo .restofooter a, .logo .restofooter nav ul li a, nav ul li .restofooter .logo a, .restofooter .logo nav ul li a, nav ul li .restofooter a, .restofooter nav ul li a, nav ul li .logo .restofooter a, .restofooter nav ul li .logo a, .logo nav ul li .restofooter a, .restofooter .logo nav ul li a, .logo nav ul li .logo .restofooter a, .restofooter .logo nav ul li .logo a, nav ul li .redes .restofooter a, .redes .restofooter nav ul li a, nav ul li .restofooter .redes a, .restofooter .redes nav ul li a, nav ul li .logo .redes .restofooter a, .logo .redes .restofooter nav ul li a, nav ul li .restofooter .logo .redes a, .restofooter .logo .redes nav ul li a, nav ul li .redes .logo .restofooter a, .redes .logo .restofooter nav ul li a, nav ul li .restofooter .redes .logo a, .restofooter .redes .logo nav ul li a, nav ul li .redes .restofooter a, .restofooter nav ul li .redes a, .redes nav ul li .restofooter a, .restofooter .redes nav ul li a, nav ul li .logo .redes .restofooter a, .restofooter nav ul li .logo .redes a, .redes nav ul li .logo .restofooter a, .restofooter .redes nav ul li .logo a, .logo nav ul li .redes .restofooter a, .restofooter .logo nav ul li .redes a, .redes .logo nav ul li .restofooter a, .restofooter .redes .logo nav ul li a, .logo nav ul li .logo .redes .restofooter a, .restofooter .logo nav ul li .logo .redes a, .redes .logo nav ul li .logo .restofooter a, .restofooter .redes .logo nav ul li .logo a, .logo a, .logo .restofooter a, .restofooter .logo a, .logo .restofooter a, .restofooter .logo a, .logo nav ul li .restofooter a, nav ul li .restofooter .logo a, .logo .restofooter nav ul li a, .restofooter nav ul li .logo a, nav ul li .logo .restofooter a, .restofooter nav ul li .logo a, .logo nav ul li .restofooter a, .restofooter .logo nav ul li a, .logo nav ul li .logo .restofooter a, .restofooter .logo nav ul li .logo a, .logo .redes .restofooter a, .redes .restofooter .logo a, .logo .restofooter .redes a, .restofooter .redes .logo a, .logo .redes .restofooter a, .restofooter .logo .redes a, .redes .logo .restofooter a, .restofooter .redes .logo a, .logo nav ul li .redes .restofooter a, nav ul li .redes .restofooter .logo a, .logo .restofooter nav ul li .redes a, .restofooter nav ul li .redes .logo a, .logo .redes nav ul li .restofooter a, .redes nav ul li .restofooter .logo a, .logo .restofooter .redes nav ul li a, .restofooter .redes nav ul li .logo a, nav ul li .logo .redes .restofooter a, .restofooter nav ul li .logo .redes a, .redes nav ul li .logo .restofooter a, .restofooter .redes nav ul li .logo a, .logo nav ul li .redes .restofooter a, .restofooter .logo nav ul li .redes a, .redes .logo nav ul li .restofooter a, .restofooter .redes .logo nav ul li a, .logo nav ul li .logo .redes .restofooter a, .restofooter .logo nav ul li .logo .redes a, .redes .logo nav ul li .logo .restofooter a, .restofooter .redes .logo nav ul li .logo a {
   text-decoration: none;
   color: black;
 }
@@ -30,6 +30,10 @@ header {
   font-size: 20px;
 }
 
+.position {
+  position: fixed;
+}
+
 nav {
   display: flex;
   width: 100%;
@@ -37,7 +41,6 @@ nav {
   align-items: center;
   margin: 0 auto;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  position: fixed;
   z-index: 1001;
   background-image: linear-gradient(to left, #12cdd4, #B0F6F8);
   border-radius: 15px;
@@ -52,7 +55,7 @@ nav ul {
   z-index: 100;
   flex-wrap: wrap;
 }
-nav ul li a, nav ul li .logo a, .logo nav ul li a {
+nav ul li a, nav ul li .restofooter a, .restofooter nav ul li a, nav ul li .logo .restofooter a, .logo .restofooter nav ul li a, nav ul li .restofooter .logo a, .restofooter .logo nav ul li a, nav ul li .restofooter a, .restofooter nav ul li a, nav ul li .logo .restofooter a, .restofooter nav ul li .logo a, .logo nav ul li .restofooter a, .restofooter .logo nav ul li a, .logo nav ul li .logo .restofooter a, .restofooter .logo nav ul li .logo a, nav ul li .redes .restofooter a, .redes .restofooter nav ul li a, nav ul li .restofooter .redes a, .restofooter .redes nav ul li a, nav ul li .logo .redes .restofooter a, .logo .redes .restofooter nav ul li a, nav ul li .restofooter .logo .redes a, .restofooter .logo .redes nav ul li a, nav ul li .redes .logo .restofooter a, .redes .logo .restofooter nav ul li a, nav ul li .restofooter .redes .logo a, .restofooter .redes .logo nav ul li a, nav ul li .redes .restofooter a, .restofooter nav ul li .redes a, .redes nav ul li .restofooter a, .restofooter .redes nav ul li a, nav ul li .logo .redes .restofooter a, .restofooter nav ul li .logo .redes a, .redes nav ul li .logo .restofooter a, .restofooter .redes nav ul li .logo a, .logo nav ul li .redes .restofooter a, .restofooter .logo nav ul li .redes a, .redes .logo nav ul li .restofooter a, .restofooter .redes .logo nav ul li a, .logo nav ul li .logo .redes .restofooter a, .restofooter .logo nav ul li .logo .redes a, .redes .logo nav ul li .logo .restofooter a, .restofooter .redes .logo nav ul li .logo a, nav ul li .redes a, nav ul li .redes .restofooter a, .restofooter nav ul li .redes a, nav ul li .redes .logo .restofooter a, .logo .restofooter nav ul li .redes a, nav ul li .redes .restofooter .logo a, .restofooter .logo nav ul li .redes a, nav ul li .redes .restofooter a, nav ul li .restofooter .redes a, .restofooter nav ul li .redes a, nav ul li .redes .logo .restofooter a, nav ul li .logo .restofooter .redes a, .restofooter nav ul li .redes .logo a, .restofooter nav ul li .logo .redes a, .logo nav ul li .redes .restofooter a, .logo nav ul li .restofooter .redes a, .restofooter .logo nav ul li .redes a, .logo nav ul li .redes .logo .restofooter a, .logo nav ul li .logo .restofooter .redes a, .restofooter .logo nav ul li .redes .logo a, .restofooter .logo nav ul li .logo .redes a, nav ul li .redes .restofooter a, nav ul li .restofooter .redes a, .restofooter nav ul li .redes a, nav ul li .logo .redes .restofooter a, .logo nav ul li .redes .restofooter a, nav ul li .restofooter .logo .redes a, .restofooter .logo nav ul li .redes a, nav ul li .redes .logo .restofooter a, nav ul li .restofooter .redes .logo a, .restofooter nav ul li .redes .logo a, nav ul li .redes .restofooter a, .restofooter nav ul li .redes a, .redes nav ul li .redes .restofooter a, .redes nav ul li .restofooter .redes a, .restofooter .redes nav ul li .redes a, nav ul li .logo .redes .restofooter a, .restofooter nav ul li .logo .redes a, .redes nav ul li .redes .logo .restofooter a, .redes nav ul li .logo .restofooter .redes a, .restofooter .redes nav ul li .redes .logo a, .restofooter .redes nav ul li .logo .redes a, .logo nav ul li .redes .restofooter a, .restofooter .logo nav ul li .redes a, .redes .logo nav ul li .redes .restofooter a, .redes .logo nav ul li .restofooter .redes a, .restofooter .redes .logo nav ul li .redes a, .logo nav ul li .logo .redes .restofooter a, .restofooter .logo nav ul li .logo .redes a, .redes .logo nav ul li .redes .logo .restofooter a, .redes .logo nav ul li .logo .restofooter .redes a, .restofooter .redes .logo nav ul li .redes .logo a, .restofooter .redes .logo nav ul li .logo .redes a, .redes nav ul li a, .redes nav ul li .restofooter a, .restofooter .redes nav ul li a, .redes nav ul li .logo .restofooter a, .logo .restofooter .redes nav ul li a, .redes nav ul li .restofooter .logo a, .restofooter .logo .redes nav ul li a, .redes nav ul li .restofooter a, .redes .restofooter nav ul li a, .restofooter .redes nav ul li a, .redes nav ul li .logo .restofooter a, .redes .restofooter nav ul li .logo a, .restofooter .redes nav ul li .logo a, .redes .logo nav ul li .restofooter a, .logo .redes nav ul li .restofooter a, .redes .restofooter .logo nav ul li a, .restofooter .logo .redes nav ul li a, .redes .logo nav ul li .logo .restofooter a, .logo .redes nav ul li .logo .restofooter a, .redes .restofooter .logo nav ul li .logo a, .restofooter .logo .redes nav ul li .logo a, .redes nav ul li .restofooter a, .redes .restofooter nav ul li a, .restofooter .redes nav ul li a, .logo .redes nav ul li .restofooter a, .logo .redes .restofooter nav ul li a, .restofooter .logo .redes nav ul li a, .redes nav ul li .logo .restofooter a, .redes .logo .restofooter nav ul li a, .restofooter .redes nav ul li .logo a, .restofooter .redes .logo nav ul li a, .redes nav ul li .redes .restofooter a, .redes .restofooter nav ul li .redes a, .restofooter .redes nav ul li .redes a, .redes nav ul li .restofooter a, .restofooter .redes nav ul li a, .redes nav ul li .logo .redes .restofooter a, .redes .restofooter nav ul li .logo .redes a, .restofooter .redes nav ul li .logo .redes a, .redes nav ul li .logo .restofooter a, .restofooter .redes nav ul li .logo a, .redes .logo nav ul li .redes .restofooter a, .logo .redes nav ul li .redes .restofooter a, .redes .restofooter .logo nav ul li .redes a, .restofooter .logo .redes nav ul li .redes a, .redes .logo nav ul li .restofooter a, .restofooter .redes .logo nav ul li a, .redes .logo nav ul li .logo .redes .restofooter a, .logo .redes nav ul li .logo .redes .restofooter a, .redes .restofooter .logo nav ul li .logo .redes a, .restofooter .logo .redes nav ul li .logo .redes a, .redes .logo nav ul li .logo .restofooter a, .restofooter .redes .logo nav ul li .logo a, nav ul li .logo a, nav ul li .logo .restofooter a, .restofooter nav ul li .logo a, nav ul li .logo .restofooter a, nav ul li .restofooter .logo a, .restofooter nav ul li .logo a, nav ul li .logo .restofooter a, nav ul li .restofooter .logo a, .restofooter nav ul li .logo a, nav ul li .logo .restofooter a, .restofooter nav ul li .logo a, .logo nav ul li .logo .restofooter a, .logo nav ul li .restofooter .logo a, .restofooter .logo nav ul li .logo a, .logo nav ul li .logo .restofooter a, .restofooter .logo nav ul li .logo a, nav ul li .logo .redes .restofooter a, .redes .restofooter nav ul li .logo a, nav ul li .logo .restofooter .redes a, .restofooter .redes nav ul li .logo a, nav ul li .logo .redes .restofooter a, nav ul li .restofooter .logo .redes a, .restofooter nav ul li .logo .redes a, nav ul li .redes .logo .restofooter a, .redes nav ul li .logo .restofooter a, nav ul li .restofooter .redes .logo a, .restofooter .redes nav ul li .logo a, nav ul li .logo .redes .restofooter a, nav ul li .redes .restofooter .logo a, .restofooter nav ul li .logo .redes a, .restofooter nav ul li .redes .logo a, .redes nav ul li .logo .restofooter a, .redes nav ul li .restofooter .logo a, .restofooter .redes nav ul li .logo a, nav ul li .logo .redes .restofooter a, .restofooter nav ul li .logo .redes a, .redes nav ul li .logo .restofooter a, .restofooter .redes nav ul li .logo a, .logo nav ul li .logo .redes .restofooter a, .logo nav ul li .redes .restofooter .logo a, .restofooter .logo nav ul li .logo .redes a, .restofooter .logo nav ul li .redes .logo a, .redes .logo nav ul li .logo .restofooter a, .redes .logo nav ul li .restofooter .logo a, .restofooter .redes .logo nav ul li .logo a, .logo nav ul li .logo .redes .restofooter a, .restofooter .logo nav ul li .logo .redes a, .redes .logo nav ul li .logo .restofooter a, .restofooter .redes .logo nav ul li .logo a, .logo nav ul li a, .logo nav ul li .restofooter a, .restofooter .logo nav ul li a, .logo nav ul li .restofooter a, .logo .restofooter nav ul li a, .restofooter .logo nav ul li a, .logo nav ul li .restofooter a, .logo .restofooter nav ul li a, .restofooter .logo nav ul li a, .logo nav ul li .logo .restofooter a, .logo .restofooter nav ul li .logo a, .restofooter .logo nav ul li .logo a, .logo nav ul li .restofooter a, .restofooter .logo nav ul li a, .logo nav ul li .logo .restofooter a, .restofooter .logo nav ul li .logo a, .logo nav ul li .redes .restofooter a, .redes .restofooter .logo nav ul li a, .logo nav ul li .restofooter .redes a, .restofooter .redes .logo nav ul li a, .logo nav ul li .redes .restofooter a, .logo .redes .restofooter nav ul li a, .restofooter .logo nav ul li .redes a, .restofooter .logo .redes nav ul li a, .redes .logo nav ul li .restofooter a, .redes .logo .restofooter nav ul li a, .restofooter .redes .logo nav ul li a, .logo nav ul li .redes .restofooter a, .logo .restofooter nav ul li .redes a, .restofooter .logo nav ul li .redes a, .logo .redes nav ul li .restofooter a, .redes .logo nav ul li .restofooter a, .logo .restofooter .redes nav ul li a, .restofooter .redes .logo nav ul li a, .logo nav ul li .logo .redes .restofooter a, .logo .restofooter nav ul li .logo .redes a, .restofooter .logo nav ul li .logo .redes a, .logo .redes nav ul li .logo .restofooter a, .redes .logo nav ul li .logo .restofooter a, .logo .restofooter .redes nav ul li .logo a, .restofooter .redes .logo nav ul li .logo a, .logo nav ul li .redes .restofooter a, .restofooter .logo nav ul li .redes a, .redes .logo nav ul li .restofooter a, .restofooter .redes .logo nav ul li a, .logo nav ul li .logo .redes .restofooter a, .restofooter .logo nav ul li .logo .redes a, .redes .logo nav ul li .logo .restofooter a, .restofooter .redes .logo nav ul li .logo a {
   font-size: 14px;
   text-transform: uppercase;
   padding-left: 15px;
@@ -128,6 +131,19 @@ main ul {
 
 footer {
   background-image: linear-gradient(to left, #12cdd4, #B0F6F8);
+  border-radius: 15px;
+}
+
+.botones {
+  padding: 10px;
+  border-width: 0;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all;
+}
+.botones:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 2px rgba(31, 38, 135, 0.37);
 }
 
 .redes {
@@ -136,13 +152,25 @@ footer {
   align-items: center;
   height: 50px;
 }
+.redes a {
+  padding: 15px;
+  transition: all;
+}
+.redes a:hover {
+  transform: translateY(-2px);
+}
 
 .restofooter {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-
+.restofooter li {
+  transform: all;
+}
+.restofooter li:hover {
+  transform: translateY(-2px);
+}
 .margenes {
   margin: 30px;
   padding: 30px;

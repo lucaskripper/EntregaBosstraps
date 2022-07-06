@@ -34,6 +34,10 @@ header
         font-size: 20px;
     }
 }
+.position
+{
+    position: fixed;
+}
 nav
 {
     display: flex;
@@ -42,7 +46,6 @@ nav
     align-items: center;
     margin: 0 auto;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    position: fixed;
     z-index: 1001;
     background-image: map-get($coloresSecciones, colorIndex );
     border-radius: 15px;
@@ -85,6 +88,20 @@ main
 footer
 {
     background-image: map-get($coloresSecciones ,colorIndex ); 
+    border-radius: 15px;
+}
+.botones
+{
+    padding: 10px;
+    border-width: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all;
+    &:hover
+    {
+        transform: translateY(-5px);
+        box-shadow: 0 2px 2px rgba( 31, 38, 135, 0.37);
+    }
 }
 .redes
 {
@@ -92,12 +109,36 @@ footer
     justify-content: center;
     align-items: center;
     height: 50px;
+    a
+    {
+        @extend a;
+        padding: 15px;
+        transition: all;
+        &:hover
+        {
+            transform: translateY(-2px);
+        }
+
+    }
 }
 .restofooter
 {
     display: flex; 
     justify-content: center; 
     text-align: center;
+    li
+    {
+        transform: all;
+        &:hover
+        {
+            transform: translateY(-2px);
+        } 
+    }
+    a
+    {
+        @extend a;
+    }
+
 }
 .margenes
 {
