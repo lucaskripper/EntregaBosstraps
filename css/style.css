@@ -34,6 +34,12 @@ header {
   position: fixed;
 }
 
+.imagenesTamanio {
+  margin-top: 1.5rem;
+  max-width: 150px;
+  max-height: 150px;
+}
+
 nav {
   display: flex;
   width: 100%;
@@ -154,7 +160,6 @@ footer {
   transition: all;
   border-radius: 5px;
   border: 0;
-  text-align: center;
 }
 .formulario .formato:focus {
   transform: scale(1.04);
