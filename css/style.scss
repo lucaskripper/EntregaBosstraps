@@ -99,6 +99,7 @@ footer
 }
 .botones
 {
+    color: black;
     padding: 10px;
     border-width: 0;
     border-radius: 5px;
@@ -238,6 +239,7 @@ footer
             box-shadow: 0 2px 2px rgba(255,177,27,0.5);
             button
             {
+                color: black;
                 background-image: map-get($coloresSecciones,colorBoxeo);
             }
             &:hover
@@ -256,6 +258,7 @@ footer
             box-shadow: 0 2px 2px rgba(148,134,241,0.5);
             button
             {
+                color: black;
                 background-image: map-get($coloresSecciones, colorMMA);
             }
             &:hover
@@ -274,6 +277,7 @@ footer
             box-shadow: 0 2px 2px rgba(248,117,165,0.5);
             button
             {
+                color: black;
                 background-image: map-get($coloresSecciones,colorRunning);
             }
             &:hover
@@ -292,6 +296,7 @@ footer
             box-shadow: 0 2px 2px rgba(18,205,212,0.5);
             button
             {
+                color: black;
                 background-image: map-get($coloresSecciones,colorIndex);
             }
             &:hover
@@ -310,6 +315,7 @@ footer
             box-shadow: 0 2px 2px rgba(39,255,112,0.5);
             button
             {
+                color: black;
                 background-image: map-get($coloresSecciones,colorCrossFit);
             }
             &:hover
@@ -317,6 +323,20 @@ footer
                 box-shadow: 0 2px 2px rgba(39,255,112,1);
             }
         }
+    }
+}
+.responsive
+{
+    display: grid;
+    grid-template-columns: repeat(4 , 25%);
+    @media (max-width:1200px)
+    {
+        grid-template-columns: repeat(2,50%);
+    }
+    @media (max-width:700px)
+    {
+        grid-template-columns: 100%;
+        align-items: center;
     }
 }
 

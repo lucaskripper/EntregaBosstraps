@@ -141,6 +141,7 @@ footer {
 }
 
 .botones {
+  color: black;
   padding: 10px;
   border-width: 0;
   border-radius: 5px;
@@ -259,6 +260,7 @@ footer {
   box-shadow: 0 2px 2px rgba(255, 177, 27, 0.5);
 }
 #boxeo .contenedor .tarjeta button {
+  color: black;
   background-image: linear-gradient(to left, #FFB11B, #DDE8FF);
 }
 #boxeo .contenedor .tarjeta:hover {
@@ -269,6 +271,7 @@ footer {
   box-shadow: 0 2px 2px rgba(148, 134, 241, 0.5);
 }
 #mma .contenedor .tarjeta button {
+  color: black;
   background-image: linear-gradient(to left, #9486F1, #DFFFFF);
 }
 #mma .contenedor .tarjeta:hover {
@@ -279,6 +282,7 @@ footer {
   box-shadow: 0 2px 2px rgba(248, 117, 165, 0.5);
 }
 #running .contenedor .tarjeta button {
+  color: black;
   background-image: linear-gradient(to left, #F875A5, #FFFAFF);
 }
 #running .contenedor .tarjeta:hover {
@@ -289,6 +293,7 @@ footer {
   box-shadow: 0 2px 2px rgba(18, 205, 212, 0.5);
 }
 #inicio .contenedor .tarjeta button {
+  color: black;
   background-image: linear-gradient(to left, #12cdd4, #B0F6F8);
 }
 #inicio .contenedor .tarjeta:hover {
@@ -299,8 +304,25 @@ footer {
   box-shadow: 0 2px 2px rgba(39, 255, 112, 0.5);
 }
 #crossFit .contenedor .tarjeta button {
+  color: black;
   background-image: linear-gradient(to left, #27FF70, #FFE9F7);
 }
 #crossFit .contenedor .tarjeta:hover {
   box-shadow: 0 2px 2px rgb(39, 255, 112);
+}
+
+.responsive {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+@media (max-width: 1200px) {
+  .responsive {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+@media (max-width: 700px) {
+  .responsive {
+    grid-template-columns: 100%;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */
