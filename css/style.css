@@ -325,4 +325,8 @@ footer {
     grid-template-columns: 100%;
     align-items: center;
   }
+  .responsive .descripcion {
+    margin-left: 17%;
+    margin-right: 17%;
+  }
 }/*# sourceMappingURL=style.css.map */

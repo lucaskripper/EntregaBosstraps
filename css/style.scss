@@ -337,6 +337,11 @@ footer
     {
         grid-template-columns: 100%;
         align-items: center;
+        .descripcion
+        {
+            margin-left: 17%;
+            margin-right: 17%;
+        }
     }
 }
 
